@@ -3,7 +3,9 @@
 @section('content')
 <h1 class="mt-4 display-4 text-center">Single Blog</h1>
 @if (Session::has('success'))
-{{Session::get('success')}}
+<div class="alert alert-success" role="alert">
+    {{Session::get('success')}}
+</div>
 @endif
 <table class="table table-striped mt-4">
     <thead>
