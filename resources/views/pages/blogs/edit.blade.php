@@ -10,7 +10,7 @@
         <label for="title">Title</label>
         <input type="text" name="title" id="title" class="form-control" value="{{$blog->title}}">
         @error('title')
-        <div class="alert alert-danger" role="alert">
+        <div class="alert alert-danger mt-4" role="alert">
             {{$message}}
         </div>
         @enderror
@@ -19,7 +19,7 @@
         <label for="summary">Summary</label>
         <input type="text" name="summary" id="summary" class="form-control" value="{{$blog->summary}}">
         @error('summary')
-        <div class="alert alert-danger" role="alert">
+        <div class="alert alert-danger mt-4" role="alert">
             {{$message}}
         </div>
         @enderror
@@ -28,7 +28,7 @@
         <label for="content">Content</label>
         <input type="text" name="content" id="content" class="form-control" value="{{$blog->content}}">
         @error('content')
-        <div class="alert alert-danger" role="alert">
+        <div class="alert alert-danger mt-4" role="alert">
             {{$message}}
         </div>
         @enderror

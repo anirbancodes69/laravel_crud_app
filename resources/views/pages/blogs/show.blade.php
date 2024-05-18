@@ -3,7 +3,7 @@
 @section('content')
 <h1 class="mt-4 display-4 text-center">Single Blog</h1>
 @if (Session::has('success'))
-<div class="alert alert-success" role="alert">
+<div class="alert alert-success mt-4" role="alert">
     {{Session::get('success')}}
 </div>
 @endif
